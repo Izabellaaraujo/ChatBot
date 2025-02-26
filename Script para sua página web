@@ -1,0 +1,12 @@
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+                .withAppKey('YmVsbGEyNDoyMTc0OTM2Yi05ZjlhLTQ0ODktOGZmNC05YmVlYTEyZDM1Zjg=')
+                .withButton({"color":"#0096fa","icon":""})
+                .withCustomCommonUrl('https://izabella-da-silva-gomes-de-araujo-74fm1.chat.blip.ai/')
+                .build();
+        }
+    })();
+</script>
